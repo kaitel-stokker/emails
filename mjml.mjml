@@ -1,0 +1,325 @@
+<mjml>
+<mj-head>
+
+  
+
+    <mj-raw>
+
+    <custom name="opencounter" type="tracking">
+
+      <custom name="usermatch" type="tracking" />
+
+    </custom>
+
+  </mj-raw>
+
+  <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+
+
+
+  <mj-attributes>
+
+    <mj-all font-family="Inter, Arial, sans-serif" />
+    <mj-text color="#000000" font-size="16px" />
+    <mj-button background-color="#E7B340" color="#000" border-radius="0" font-size="16px" font-weight="600" />
+
+  <mj-raw>
+   </mj-raw>
+
+  </mj-head>
+
+
+  <mj-body background-color="#48ce0a">
+
+    <!-- View in browser -->
+    <mj-section padding="10px 0 0 0" background-color="#f5f5f5">
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#777777">
+          <a href="%%view_email_url%%" style="color:#777777; text-decoration:underline;">Vaata veebilehitsejas</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+        <!-- END View in browser -->
+
+
+    <!-- Logo -->
+    <mj-section background-color="#ffffff" padding="40px 0 41px 0">
+      <mj-column width="250px">
+        <mj-image src="https://image.communication.stokker.com/lib/fe2c11737364047c701378/m/1/29e33586-b90e-477e-9e7e-ec6a7ab4c679.png" padding="0" alt="Stokkeri logo" />
+      </mj-column>
+    </mj-section>
+        <!-- END Logo -->
+
+
+    <!-- H1 -->
+    <mj-section background-color="#ffffff" padding="0 20px 10px 20px">
+      <mj-column>
+        <mj-text font-size="32px" font-weight="700" line-height="1.2" color="#004B87">
+Jõulukingid, mis panevad tegija silmad särama.</mj-text>
+      </mj-column>
+    </mj-section>
+        <!-- END H1 -->
+
+
+    <!-- Hero image -->
+    <mj-section background-color="#ffffff" padding="0 0 20px 0">
+      <mj-column>
+        <mj-image src="https://image.communication.stokker.com/lib/fe2c11737364047c701378/m/1/bb858f14-201c-46fc-9e01-01afc28c93ac.jpg" alt="Hero" padding="0" />
+      </mj-column>
+    </mj-section>
+        <!-- END Hero image -->
+
+
+    <!-- Sissejuhatus -->
+    <mj-section background-color="#ffffff" padding="0 20px 20px 20px">
+      <mj-column>
+        <mj-text line-height="1.5">
+<b>Mõtled, mida kinkida oma kuldsete kätega lähedasele, kellel on juba mitu paari villaseid sokke olemas? Kingi talle tööriistu!</b></mj-text>
+<mj-text line-height="1.5">
+Või oled ise sel aastal eriti tubli olnud ja tahaksid jõulukingi varjus soetada endale midagi, mille ostmist muidu perele raskem õigustada oleks?</mj-text>
+<mj-text line-height="1.5">
+ Selleks, et anda sulle inspiratsiooni jõulukinkide leidmisel, mis panevad silma särama nii hobitöölisel, garaažis nokitsejal kui ka DIY-entusiastil, oleme koostanud ühe vägeva kinginimekirja.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- H2 -->
+    <mj-section background-color="#ffffff" padding="0 20px 10px 20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="600" line-height="1.3" color="#004B87">
+Leia jõulukingid endale, sõpradele ja perele Stokkerist!        </mj-text>
+      </mj-column>
+    </mj-section>
+        <!-- END -->
+
+
+    <!-- Sisutekst -->
+    <mj-section background-color="#ffffff" padding="0 20px 20px 20px">
+      <mj-column>
+        <mj-text line-height="1.5">
+      Üks korralik tööriist või tarvik kulub meistrile alati marjaks ära. Kingi neil pühadel oma lähedastele midagi, mis jääb meelde ja pakub rõõmu pikaks ajaks.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+        <!-- Product block 2 -->
+
+          <mj-raw>
+
+     %%[
+VAR @buttonText
+SET @buttonText = "Tutvu tootega &raquo;"
+
+ /* 1. PRODUCT-1 MUUTUJAD ÜHES KOHAS */
+VAR @product1URL
+SET @product1URL = "https://www.stokker.ee/akutrell-bs-18-l-bl-q-2x20ah-metabox-145-c-613156500-met"
+
+VAR @product1ImageURL
+SET @product1ImageURL = "https://media.stokker.com/prod/l/668/189644668.jpg?v=20251212"
+
+VAR @product1Title
+SET @product1Title = "Akutrell BS 18 L BL Q /2x2,0Ah, metaBOX 145, Metabo"
+
+VAR @product1Price
+SET @product1Price = "219.00 €"
+
+
+ /* 2. PRODUCT-2 MUUTUJAD ÜHES KOHAS */
+VAR @product2URL
+SET @product2URL = "https://www.stokker.ee/robotniiduk-sunseeker-v3-c-16800218--01-sun"
+
+VAR @product2ImageURL
+SET @product2ImageURL = "https://image.communication.stokker.com/lib/fe2c11737364047c701378/m/1/854e220e-cc00-4af9-a540-0d4fd688c26b.png"
+
+VAR @product2Title
+SET @product2Title = "Robotniiduk V3, Sunseeker"
+
+VAR @product2Price
+SET @product2Price = "1199.01 €"
+]%%
+
+    </mj-raw>
+
+
+    <mj-section background-color="#fff" padding="0 40px ">
+      <mj-column vertical-align="bottom">
+        
+        <mj-image 
+          padding="0 0 10px 0"
+          src="%%=v(@product1ImageURL)=%%"
+          alt="%%=v(@product1Title)=%%"
+          align="center"
+          border="none"
+          width="220px"
+          href="%%=RedirectTo(@product1URL)=%%"
+        />
+
+        <mj-text
+          padding="0 0 10px 0"
+          font-weight="bold"
+          align="left"
+          color="#000"
+          font-size="16px">
+            <a
+              href="%%=RedirectTo(@product1URL)=%%"
+              title="%%=v(@product1Title)=%%"
+              style="color:#000; text-decoration:none;"
+            >
+            %%=v(@product1Title)=%%
+            </a> 
+        </mj-text>
+
+        <mj-text
+        padding="0 0 10px 0"
+        color="#b71c1c">
+          <span style="font-size:12px;" >StokkerPRO kliendile:</span><br />
+          <span style="font-size:16px;">%%=v(@product1Price)=%%</span>
+        </mj-text>
+
+        <mj-text  padding="0 0 10px 0">
+          <a
+            href="%%=RedirectTo(@product1URL)=%%"
+            style="color:#1A4B7A; text-decoration:none; font-weight:600;"
+          >
+            Tutvu tootega &gt;
+          </a>
+        </mj-text>
+      </mj-column>
+
+     <mj-column vertical-align="bottom">
+        
+        <mj-image 
+          padding="0 0 10px 0"
+          src="%%=v(@product1ImageURL)=%%"
+          alt="%%=v(@product1Title)=%%"
+          align="center"
+          border="none"
+          width="220px"
+          href="%%=RedirectTo(@product1URL)=%%"
+        />
+
+        <mj-text
+          padding="0 0 10px 0"
+          font-weight="bold"
+          align="left"
+          color="#000"
+          font-size="16px">
+            <a
+              href="%%=RedirectTo(@product1URL)=%%"
+              title="%%=v(@product1Title)=%%"
+              style="color:#000; text-decoration:none;"
+            >
+            %%=v(@product1Title)=%%
+            </a> 
+        </mj-text>
+
+        <mj-text
+        padding="0 0 10px 0"
+        color="#b71c1c">
+          <span style="font-size:12px;" >StokkerPRO kliendile:</span><br />
+          <span style="font-size:16px;">%%=v(@product1Price)=%%</span>
+        </mj-text>
+
+        <mj-text  padding="0 0 10px 0">
+          <a
+            href="%%=RedirectTo(@product1URL)=%%"
+            style="color:#1A4B7A; text-decoration:none; font-weight:600;"
+          >
+            Tutvu tootega &gt;
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+            <!-- END Product block 2 -->
+
+
+    <!-- Yellow button -->
+    <mj-section background-color="#ffffff" padding="20px 20px 30px 20px">
+      <mj-column>
+        <mj-button href="LINK_SIIN">
+          Vaata lähemalt
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+        <!-- END Yellow button -->
+
+
+    <!-- Social footer -->
+   <mj-section background-color="#7DB3E8" padding="50px 0">
+  <mj-column>
+    <mj-social
+      align="center"
+      mode="horizontal"
+      padding="0"
+      icon-size="48px"
+      inner-padding="12px 12px"
+    >
+      <!-- LOCATION -->
+      <mj-social-element
+        href="https://www.stokker.ee/contacts/shops"
+        src="https://image.communication.stokker.com/lib/fe2c11737364047c701378/m/1/3abb7a0b-6856-4f44-a3b0-4db3b44aa312.png"
+        background-color="transparent"
+      />
+
+      <!-- CART -->
+      <mj-social-element
+        href="https://www.stokker.ee/e-pood"
+        src="https://image.communication.stokker.com/lib/fe2c11737364047c701378/m/1/70400227-e598-4f46-b01d-4abdcb70b695.png"
+        background-color="transparent"
+      />
+
+      <!-- PHONE -->
+      <mj-social-element
+        href="tel:(+372)6555511"
+        src="https://image.communication.stokker.com/lib/fe2c11737364047c701378/m/1/a1595dea-3de1-40ea-98eb-15733a144da8.png"
+        background-color="transparent"
+      />
+
+      <!-- EMAIL -->
+      <mj-social-element
+        href="mailto:klient@stokker.com"
+        src="https://image.communication.stokker.com/lib/fe2c11737364047c701378/m/1/cd4853c6-105b-4e55-8a10-58b1921e3462.png"
+        background-color="transparent"
+      />
+
+      <!-- FACEBOOK -->
+      <mj-social-element
+        href="https://www.facebook.com/StokkerEesti"
+        src="https://image.communication.stokker.com/lib/fe2c11737364047c701378/m/1/1eb91da6-8f11-4986-a7a2-acb6d487e051.png"
+        background-color="transparent"
+      />
+
+      <!-- YOUTUBE -->
+      <mj-social-element
+        href="https://www.youtube.com/channel/UCK9It7Es3oCtJlsWkoTWfow"
+        src="https://image.communication.stokker.com/lib/fe2c11737364047c701378/m/1/f8d4f70b-22ee-428d-bab8-8504a5f633a5.png"
+        background-color="transparent"
+      />
+    </mj-social>
+
+    <mj-text
+      align="center"
+      color="#ffffff"
+      font-size="12px"
+      font-weight="600"
+      padding="20px 0 0 0"
+    >
+      STOKKER <span style="font-weight:400;">AS</span>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+
+    <!-- Legal footer -->
+    <mj-section background-color="#f5f5f5" padding="40px 20px 40px 20px">
+      <mj-column>
+        <mj-text font-size="12px" color="#777" line-height="1.5" align="center">
+          Said selle kirja, sest oled liitunud meie uudiskirjaga.  
+          <br /><a href="%%=CloudPagesURL(109)=%%" style="color:#777; text-decoration:underline;">Uudiskirjadest saad loobuda siin.</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
